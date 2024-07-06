@@ -43,7 +43,10 @@ repo_url: https://github.com/Citralians/citralians.github.io # 右上角点击�
 repo_name: citralians.github.io # 右上角的名字
  
 # [Navigtion]
-# nav: 
+ nav: 
+ - 主页: index.md
+ - 更新日志: diary.md
+ - 论文阅读笔记:
 #   - 博客:
 #     - 好用/好玩网站分享: blog/Webplay.md
 #     - What is Github: blog/Github.md
