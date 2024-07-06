@@ -1,6 +1,6 @@
 #[Info]
 site_name: Citralians' Blog #网站名
-site_url: citralians.github.io #网站链接
+site_url: http://citralians.github.io #网站链接
 site_author: Citralians #作者
 #[UI]
 theme:
