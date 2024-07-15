@@ -43,19 +43,19 @@ repo_url: https://github.com/Citralians/citralians.github.io # 右上角点击�
 repo_name: citralians.github.io # 右上角的名字
  
 # [Navigation]
- nav: 
- - 主页: index.md
- - 更新日志: diary.md
- - 论文阅读笔记:
+nav: 
+- 主页: index.md
+- 更新日志: diary.md
+- 论文阅读笔记:
   - 异构联邦学习: paper/22hetero.md
-#   - 博客:
-#     - 好用/好玩网站分享: blog/Webplay.md
-#     - What is Github: blog/Github.md
-#     - 解决谷歌翻译用不了的问题: blog/googletranslate.md
-#     - Mac/windows软件网站汇总: blog/macsoft.md
-#     - win11资源分享: blog/win.md
-#     - Telegram 群组、频道、机器人 - 汇总分享: blog/TG.md
-#     - Python:
+# - 博客:
+#   - 好用/好玩网站分享: blog/Webplay.md
+#   - What is Github: blog/Github.md
+#   - 解决谷歌翻译用不了的问题: blog/googletranslate.md
+#   - Mac/windows软件网站汇总: blog/macsoft.md
+#   - win11资源分享: blog/win.md
+#   - Telegram 群组、频道、机器人 - 汇总分享: blog/TG.md
+#   - Python:
 #         - 将Python文件.py打包成.exe可执行程序: blog/py/python.md
 #         - pip: blog/py/pip.md
 #     - C语言: blog/c.md
