@@ -1,6 +1,6 @@
 # Towards Efficient Asynchronous Federated Learning in Heterogeneous Edge Environments 面向异构边缘环境的高效异步联邦学习
 
-貌似是师姐的论文。source在[一个学术会议的官网](https://infocom.info/day/3/track/Track%20E)上，不过不让下载，只能看摘要。$\\$
+貌似是师姐的论文。source在[一个学术会议的官网](https://infocom.info/day/3/track/Track%20E)上，不过不让下载，只能看摘要。
 这个标题就抛出来了一堆概念：
 
 - 联邦学习：采用类似client-server的架构，但是server(global model)不会直接接触到client的数据，而是通过client的模型在本地进行训练，然后再将模型参数的更新传回全局模型。
