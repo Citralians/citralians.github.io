@@ -48,6 +48,7 @@ nav:
 - 更新日志: diary.md
 - 论文阅读笔记:
   - 异构联邦学习: paper-reading/22hetero.md
+  - 投毒攻击: paper-reading/22eval.md
 # - 博客:
 #   - 好用/好玩网站分享: blog/Webplay.md
 #   - What is Github: blog/Github.md
