@@ -30,9 +30,7 @@ SBL由于强制同步提交，对客户端异构的场景并不友好。
 许多机器学习模型，如逻辑回归和深度神经网络，可以被表述为以下的有限和优化（infinite sum optimization）问题：
 
 $$
-
 \min_{w \in \mathbb{R}^d} f(w) = \frac{1}{n} \sum_{i=1}^n f(w; z_i)
-
 $$
 
 其中 $w$ 是模型参数，$d$ 是参数维度，$n$ 是数据集大小，$f(w; z_i)$ 是基于 $z_i$ 的经验损失函数（应该就是损失函数，只不过换了个叫法。见[这里](https://www.zhihu.com/question/426518849)）。
