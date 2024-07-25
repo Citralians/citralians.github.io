@@ -1,5 +1,7 @@
 # BASGD: Buffered Asynchronous SGD for Byzantine Learning 用于拜占庭学习的缓冲异步SGD
 
+pdf source [here](https://arxiv.org/pdf/2003.00937).
+
 - SGD: Stochastic Gradient Descent 随机梯度下降，是一种通过迭代的方式来最小化损失函数的优化算法。
 - 拜占庭学习：此处与《计网》中的拜占庭将军问题一致，即在分布式系统中，有一部分节点是恶意的，它们会发送错误的信息，可能导致整个系统无法正常工作。拜占庭学习就是在这种情况下的机器学习问题。
 - ABL: Asynchronous Byzantine Learning 异步拜占庭学习，客户端不需要在同一时间提交模型更新。
