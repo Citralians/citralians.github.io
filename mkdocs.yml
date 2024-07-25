@@ -49,6 +49,7 @@ nav:
 - 论文阅读笔记:
   - 异构联邦学习: paper-reading/22hetero.md
   - 投毒攻击: paper-reading/22eval.md
+  - 投毒攻击防御(1): paper-reading/21buffered.md
 # - 博客:
 #   - 好用/好玩网站分享: blog/Webplay.md
 #   - What is Github: blog/Github.md
