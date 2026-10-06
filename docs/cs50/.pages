@@ -1,0 +1,14 @@
+title: CS50x 学习笔记
+nav:
+  - week0-scratch.md
+  - week1-c.md
+  - week2-arrays.md
+  - week3-algorithms.md
+  - week4-memory.md
+  - week5-data-structures.md
+  - week6-python.md
+  - week7-sql.md
+  - week8-html-css-js.md
+  - week9-flask.md
+  - week10-emoji.md
+  - ...

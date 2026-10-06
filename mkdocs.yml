@@ -43,13 +43,9 @@ repo_url: https://github.com/Citralians/citralians.github.io # 右上角点击�
 repo_name: citralians.github.io # 右上角的名字
  
 # [Navigation]
-nav: 
-- 主页: index.md
-- 更新日志: diary.md
-- 论文阅读笔记:
-  - 异构联邦学习: paper-reading/22hetero.md
-  - 投毒攻击: paper-reading/22eval.md
-  - 投毒攻击防御(1): paper-reading/21buffered.md
+# 导航由 awesome-pages 插件自动生成：
+#   - 每个文件夹用同目录下的 .pages 文件定义顺序/标题
+#   - 新增 md 文件后无需再修改本文件
 # - 博客:
 #   - 好用/好玩网站分享: blog/Webplay.md
 #   - What is Github: blog/Github.md
@@ -126,6 +122,7 @@ nav:
       
 plugins:
   - search
+  - awesome-pages  #自动导航：文件夹内新增文件即自动出现
   - tags  #标签
 markdown_extensions:
   - abbr
@@ -146,8 +143,8 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.superfences # 代码块高亮插件
   - meta # 支持Markdown文件上方自定义标题标签等
      

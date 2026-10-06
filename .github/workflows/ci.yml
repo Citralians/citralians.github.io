@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      # 使用包管理工具 pip 安装 mkdocs-material
-      - run: pip install mkdocs-material
+      # 使用包管理工具 pip 安装依赖（含 mkdocs-material 与 awesome-pages 插件）
+      - run: pip install -r requirements.txt
       # 使用 mkdocs-material 构建网站并部署到 gh-pages 分支
       - run: mkdocs gh-deploy --force
